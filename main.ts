@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "After four billion years of wishes, howls, and 3 a.m. promises, my answer is no. The tides, though — those were me. You're welcome.";
+  "Four billion years of wishes, howls, and 3 a.m. promises, and the answer is still no. I did move the oceans twice a day, though. You're welcome.";
 
 if (LINE.length < 1 || LINE.length > 240) {
   throw new Error(`entry line must be 1-240 characters, got ${LINE.length}`);
